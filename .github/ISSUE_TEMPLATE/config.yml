@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Help center and docs
-    url: https://www.sociahive.com/docs
+    url: https://docs.sociahive.com
     about: Guides for the app, the API, the MCP server and the integrations.
   - name: Account and product support
     url: https://www.sociahive.com/contact

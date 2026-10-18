@@ -34,7 +34,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: For example Node 20 on macOS, Python 3.12, n8n 1.x, Claude Desktop.
+      description: For example Node 20 on macOS, Python 3.12, your n8n version, Claude Desktop.
   - type: textarea
     id: logs
     attributes:

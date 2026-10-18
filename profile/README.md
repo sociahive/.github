@@ -7,13 +7,13 @@
   </a>
 </p>
 
-<p align="center"><strong>Schedule posts, run DM and comment automations, and answer customers, from the app or from your AI tool.</strong></p>
+<p align="center"><strong>Run your social media from your AI tool: schedule posts, build DM and comment automations, and read analytics.</strong></p>
 
 <p align="center">
   <a href="https://www.sociahive.com">Website</a> ·
   <a href="https://www.sociahive.com/connect-ai">Connect your AI</a> ·
   <a href="https://www.sociahive.com/developers">Developers</a> ·
-  <a href="https://www.sociahive.com/docs">Docs</a> ·
+  <a href="https://docs.sociahive.com">Docs</a> ·
   <a href="https://www.sociahive.com/api/v1/docs">API</a>
 </p>
 
@@ -51,18 +51,18 @@
 |---|---|
 | Let ChatGPT, Claude, Cursor or another AI tool run SociaHive for you | [Connect your AI](https://www.sociahive.com/connect-ai) and [sociahive-mcp](https://github.com/sociahive/sociahive-mcp) |
 | Call the REST API from your own code | [sociahive-node](https://github.com/sociahive/sociahive-node), [sociahive-python](https://github.com/sociahive/sociahive-python) and the [API reference](https://www.sociahive.com/api/v1/docs) |
-| Use SociaHive in n8n, Zapier or Make | The [n8n community node](https://github.com/sociahive/n8n-nodes-sociahive). Zapier and Make apps are coming to their app directories. |
+| Use SociaHive in n8n, Zapier or Make | Coming soon: the [n8n community node](https://github.com/sociahive/n8n-nodes-sociahive) is not on npm yet, and the Zapier and Make apps are coming to their app directories. |
 
 ## Repositories
 
 | Repository | What it is |
 |---|---|
 | [sociahive-mcp](https://github.com/sociahive/sociahive-mcp) | The hosted MCP server, skill and plugins for AI tools |
-| [n8n-nodes-sociahive](https://github.com/sociahive/n8n-nodes-sociahive) | n8n community node: posts, media, automations and SociaHive triggers |
+| [n8n-nodes-sociahive](https://github.com/sociahive/n8n-nodes-sociahive) | n8n community node for posts, media, automations and SociaHive triggers. Coming soon, not on npm yet |
 | [sociahive-node](https://github.com/sociahive/sociahive-node) | Official Node.js and TypeScript SDK, `@sociahive/sdk` on npm |
 | [sociahive-python](https://github.com/sociahive/sociahive-python) | Official Python SDK, `sociahive` on PyPI |
 | [cookbook](https://github.com/sociahive/cookbook) | Runnable recipes for the API, the SDKs and the MCP server |
-| [zapier-platform-app](https://github.com/sociahive/zapier-platform-app) | The SociaHive Zapier app, coming to the Zapier app directory |
+| [zapier-platform-app](https://github.com/sociahive/zapier-platform-app) | A small SociaHive app for Zapier (new published post, create post). A fuller app is being prepared for the Zapier directory |
 | [sociahive-motion-clips](https://github.com/sociahive/sociahive-motion-clips) | Short product clips for anyone making a video about SociaHive |
 
 ## Data and permissions
@@ -70,7 +70,7 @@
 - **Official APIs only.** Every channel connects through the platform's own API: OAuth for Meta, TikTok, X, LinkedIn, YouTube and Pinterest, a bot token for Telegram, an app password for Bluesky. We never ask for your account password and we don't scrape.
 - **Tokens stay with us.** Platform access tokens are written encrypted (AES-256-GCM) and are never returned to AI clients or API callers.
 - **Scoped access for AI tools.** An AI tool sees only what its API key scopes or OAuth grant allow. You can grant read-only access when you connect.
-- **Revoke any time.** Remove an AI tool in Settings → Connected apps, or delete its API key, and it loses access on its next request.
+- **Revoke any time.** Remove an AI tool in **Settings > Connected apps**, or delete its API key, and it loses access on its next request.
 
 ## Contact
 
