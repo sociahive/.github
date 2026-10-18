@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help center and docs
+    url: https://www.sociahive.com/docs
+    about: Guides for the app, the API, the MCP server and the integrations.
+  - name: Account and product support
+    url: https://www.sociahive.com/contact
+    about: Questions about your SociaHive account, billing or connected channels. You can also email support@sociahive.com.
+  - name: Report a security problem
+    url: https://github.com/sociahive/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not in an issue.
