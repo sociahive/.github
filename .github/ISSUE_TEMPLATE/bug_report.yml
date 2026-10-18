@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in this repository doesn't work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. For a security problem, don't file an issue: email support@sociahive.com (see SECURITY.md). For help with your SociaHive account, email support@sociahive.com.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install version ...
+        2. Call ...
+        3. See error ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package or plugin version, or the commit you ran.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: For example Node 20 on macOS, Python 3.12, your n8n version, Claude Desktop.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error output
+      description: Remove API keys, tokens and personal data before you paste.
+      render: shell
